@@ -1,8 +1,6 @@
 # VaCommon
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/va_common`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This includes generation of header and footer, as well as the assets for vets.gov, such as javascript, scss, images, fonts.
 
 ## Installation
 
@@ -22,7 +20,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For the stylesheets, include this in the application.css file
+
+    *= require va_common_main
+
+For the js, include this in the application.js file
+
+    //= require va_common_main
+
+For the js, include this in the application.js file
+
+    //= require va_common_main
+
+To generate the header, run 
+
+    $ rails generate va_header
+
+To generate the footer, run 
+
+    $ rails generate va_footer
+
+To generate both, run
+
+    $ rails generate va_common
+
+Your primary view should look something like this:
+
+    <div class="container">
+      <%= render 'common/header' %>
+      <main role="main">
+        <%= yield %>
+        <%= render 'common/footer' %>
+      </main>
+    </div>
 
 ## Development
 
