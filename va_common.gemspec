@@ -32,6 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "modernizr-rails", "~> 2.7.1"
   spec.add_runtime_dependency "respond-rails", "~> 1.0.1"
   spec.add_runtime_dependency "selectivizr-rails", "~> 1.1.2"
-  spec.add_runtime_dependency "tota11y-rails", "~> 0.0.10"
   spec.add_runtime_dependency "wow-rails", "~> 0.0.1"
 end

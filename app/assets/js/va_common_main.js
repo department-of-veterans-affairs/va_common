@@ -8,7 +8,6 @@
 //= require components
 //= require respond
 //= require selectivizr
-//= require tota11y
 //= require wow
 //= require_tree ./vendor
 $(document).foundation();
