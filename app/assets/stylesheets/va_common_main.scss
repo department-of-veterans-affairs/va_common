@@ -13,8 +13,17 @@
 @import 'bourbon';
 @import 'neat';
 @import 'normalize-rails';
-@import 'core/**/*';
-@import 'components/**/*';
-@import 'elements/**/*';
+
+// USDS Styles. Go USA.
+@import 'core/base';
+@import 'core/defaults';
+@import 'core/utilities';
+@import 'core/variables';
+// @import 'elements/typography';
+@import 'elements/buttons';
+@import 'elements/table';
+// @import 'elements/list';
+@import 'components/accordions';
+
 @import 'foundation';
 @import 'va';
