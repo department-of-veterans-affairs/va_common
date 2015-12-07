@@ -28,10 +28,6 @@ For the js, include this in the application.js file
 
     //= require va_common_main
 
-For the js, include this in the application.js file
-
-    //= require va_common_main
-
 To generate the header, run 
 
     $ rails generate va_header
