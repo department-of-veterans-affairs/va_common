@@ -10,7 +10,9 @@
  *
  */
 
-@import 'lib/**/*';
+@import 'bourbon';
+@import 'neat';
+@import 'normalize-rails';
 @import 'core/**/*';
 @import 'components/**/*';
 @import 'elements/**/*';
