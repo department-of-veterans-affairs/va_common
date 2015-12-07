@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "bourbon", "~> 4.2.6"
   spec.add_runtime_dependency "neat", "~> 1.7.2"
   spec.add_runtime_dependency "normalize-rails", "~> 3.0.3"
-  #spec.add_runtime_dependency "foundation", "~> 5.5.2.1"
+  spec.add_runtime_dependency "foundation-rails", "~> 5.5.3.2"
 end
