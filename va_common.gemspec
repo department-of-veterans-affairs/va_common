@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "respond-rails", "~> 1.0.1"
   spec.add_runtime_dependency "selectivizr-rails", "~> 1.1.2"
   spec.add_runtime_dependency "wow-rails", "~> 0.0.1"
+  spec.add_runtime_dependency "font-awesome-rails", "~> 4.5.0.0"
 end
