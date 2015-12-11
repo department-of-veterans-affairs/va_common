@@ -4,6 +4,7 @@
 //= require jquery.stellar
 //= require html5shiv
 //= require foundation
+//= require vendor/foundation.reveal
 //= require modernizr
 //= require components
 //= require respond
