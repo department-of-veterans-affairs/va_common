@@ -28,25 +28,25 @@ For the js, include this in the application.js file
 
     //= require va_common_main
 
-To generate the header, run 
+To generate header and footer, run
+
+    $ rails generate va_common
+
+To generate just the header, run 
 
     $ rails generate va_header
 
-To generate the footer, run 
+To generate just the footer, run 
 
     $ rails generate va_footer
-
-To generate both, run
-
-    $ rails generate va_common
 
 Your primary view should look something like this:
 
     <div class="container">
-      <%= render 'common/header' %>
+      <%= render '../vendor/va_common/header' %>
       <main role="main">
         <%= yield %>
-        <%= render 'common/footer' %>
+        <%= render '../vendor/va_common/footer' %>
       </main>
     </div>
 
