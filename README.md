@@ -28,11 +28,11 @@ For the js, include this in the application.js file
 
     //= require va_common_main
 
-Your primary view should look something like this:
+Your primary layout (likely application.html.erb) should have a block that looks something like this:
 
     <%= render 'va_common/main' %>
 
-You may also either `va_common/header` and `va_common/footer` separately.
+You may also include `va_common/header` and `va_common/footer` separately.
 
 IMPORTANT: Rails must be restarted after installing this gem to ensure the search paths for partials are found.
 
