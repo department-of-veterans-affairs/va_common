@@ -30,15 +30,11 @@ For the js, include this in the application.js file
 
 Your primary view should look something like this:
 
-    <div class="container">
-      <%= render 'va_common/header' %>
-      <main role="main">
-        <%= yield %>
-        <%= render 'va_common/footer' %>
-      </main>
-    </div>
+    <%= render 'va_common/main' %>
 
-IMPORTANT: Rails must be restarted after installing this gem to ensure the search paths for partials are found. The render commands above will not be able to find the header and footer.
+You may also either `va_common/header` and `va_common/footer` separately.
+
+IMPORTANT: Rails must be restarted after installing this gem to ensure the search paths for partials are found.
 
 ## Development
 
