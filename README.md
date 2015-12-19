@@ -28,27 +28,17 @@ For the js, include this in the application.js file
 
     //= require va_common_main
 
-To generate header and footer, run
-
-    $ rails generate va_common
-
-To generate just the header, run 
-
-    $ rails generate va_header
-
-To generate just the footer, run 
-
-    $ rails generate va_footer
-
 Your primary view should look something like this:
 
     <div class="container">
-      <%= render '../vendor/va_common/header' %>
+      <%= render 'va_common/header' %>
       <main role="main">
         <%= yield %>
-        <%= render '../vendor/va_common/footer' %>
+        <%= render 'va_common/footer' %>
       </main>
     </div>
+
+IMPORTANT: Rails must be restarted after installing this gem to ensure the search paths for partials are found. The render commands above will not be able to find the header and footer.
 
 ## Development
 
