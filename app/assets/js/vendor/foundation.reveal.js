@@ -1,6 +1,6 @@
 ;(function ($, window, document, undefined) {
   'use strict';
-
+  
   Foundation.libs.reveal = {
     name : 'reveal',
 
