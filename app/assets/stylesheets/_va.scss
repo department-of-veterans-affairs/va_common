@@ -49,44 +49,43 @@ body, body.home {
 ul li:before {
   content:none;  
 }
-
 #content ul.breadcrumbs li.active {
   margin: 0em;
 }
 
-
-// Search
-
-.overlay {
+#mobile-menu.overlay {
   z-index: 10000;
+}
+
+#mobile-menu.reveal-modal {
+  padding: 0;
 }
 
 .reveal-modal #search_form {
   margin-bottom: 1em;
+} 
+
+#trigger-overlay-button button {
+  font-size: 1em;
+  padding: .5em;
 }
 
-.reveal-modal .close-reveal-modal {
-  font-size: 1em;
-  clear: both;
-  text-decoration: none;
-  color: $color-gray-dark;
-  text-align: center;
-  margin: 1em 0;
-  position: relative;
-  top: auto;
-  display: block;
-  padding: 1em 0;
-  right: auto;
-  width: 100%;
-  bottom: auto;
+button#overlay-close-button {
+    border-radius: 0;
+    display: block;
+    width: 100% !important;
+    margin: 0;
+    width: auto;
+    background: #0071bc;
+    color: #fff;
 }
 
 #search_form input[type="submit"] {
   font-size: 1em;
   max-height: 2.65em;
 }
-
 // end gem specific 
+
 
 // row
 body .row.full {
