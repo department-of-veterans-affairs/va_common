@@ -49,7 +49,6 @@ Add this to views/layouts/application.html.rb in the head tag
 
     <%= split_stylesheet_link_tag "application", :media => "all" %>
     
-    <link href="/stylesheets/too_big_stylesheet.css" media="all" rel="stylesheet" type="text/css" />
     <!--[if lte IE 9]>
         <link href="/stylesheets/application_split2.css" media="all" rel="stylesheet" type="text/css" />
     <![endif]-->
