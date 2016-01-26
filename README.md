@@ -46,7 +46,7 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 You will need to be added as an owner of va_common to release a new version.  If you have never released a gem before, go to [rubygems.org](https://rubygems.org) and create an account.  Then from the command line run `curl -u qrush https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials`
 
-Update the version number in `lib/va_common/version.rb`, and then run `gem build va_common.gemspec` to build the gem and `gem push va_common-0.3.2.gem` to release it. 
+To release a new version, update the version number in `lib/va_common/version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
