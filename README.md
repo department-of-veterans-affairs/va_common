@@ -1,4 +1,4 @@
-# VaCommon
+# Va_Common
 
 This includes generation of header and footer, as well as the assets for vets.gov, such as javascript, scss, images, fonts.
 
@@ -63,7 +63,13 @@ Create a new file called application_split2.css to the same directory as applica
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. 
+
+## Releasing
+
+You will need to be added as an owner of va_common to release a new version.  If you have never released a gem before, go to [rubygems.org](https://rubygems.org) and create an account.  Then from the command line run `curl -u qrush https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials`
+
+To release a new version, update the version number in `lib/va_common/version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
