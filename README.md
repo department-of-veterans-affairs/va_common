@@ -36,6 +36,29 @@ You may also include `va_common/header` and `va_common/footer` separately.
 
 IMPORTANT: Rails must be restarted after installing this gem to ensure the search paths for partials are found.
 
+### Special IE <3
+
+To get around the special selector limits of IE9, there is a gem called [css_splitter](https://github.com/zweilove/css_splitter) included. To make it go:
+
+Add this to the config/initializers/assets.rb file
+
+    Rails.application.config.assets.precompile += %w( application_split2.css)
+
+Add this to views/layouts/application.html.rb in the head tag
+
+
+    <%= split_stylesheet_link_tag "application", :media => "all" %>
+    
+    <!--[if lte IE 9]>
+        <link href="/stylesheets/application_split2.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+Create a new file called application_split2.css to the same directory as application.css.scss, and put this in it
+
+    /*
+     *= require 'application'
+     */ 
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
