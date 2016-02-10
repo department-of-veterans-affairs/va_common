@@ -10,6 +10,7 @@
  *
  */
 
+@import 'foundation';
 @import 'bourbon';
 @import 'neat';
 @import 'normalize-rails';
@@ -26,5 +27,4 @@
 // @import 'elements/list';
 @import 'components/accordions';
 
-@import 'foundation';
 @import 'va';
