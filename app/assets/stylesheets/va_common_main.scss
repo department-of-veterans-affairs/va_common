@@ -10,7 +10,7 @@
  *
  */
 
-@import 'foundation';
+
 @import 'bourbon';
 @import 'neat';
 @import 'normalize-rails';
@@ -21,10 +21,13 @@
 @import 'core/defaults';
 @import 'core/utilities';
 @import 'core/variables';
+@import 'core/grid-settings';
+@import 'core/grid';
 // @import 'elements/typography';
 @import 'elements/buttons';
 @import 'elements/table';
 // @import 'elements/list';
 @import 'components/accordions';
 
+@import 'foundation';
 @import 'va';
