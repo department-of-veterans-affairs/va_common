@@ -20,11 +20,18 @@
 @import 'core/defaults';
 @import 'core/utilities';
 @import 'core/variables';
+
+// VA-specific variables
+@import "va-variables";
+
 // @import 'elements/typography';
 @import 'elements/buttons';
+@import "elements/inputs";
+@import "elements/labels";
 @import 'elements/table';
 // @import 'elements/list';
 @import 'components/accordions';
+@import "components/forms";
 
 @import 'foundation';
 @import 'va';
