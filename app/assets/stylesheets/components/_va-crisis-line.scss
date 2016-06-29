@@ -106,7 +106,8 @@
   width: 100%;
   
   .va-crisis-panel--open & {
-    background-image: image-url("icons/arrow-down.svg")
+    background-image: image-url("icons/arrow-down.svg");
+  }
 }
 
 //==== Small viewport panel touch
