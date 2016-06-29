@@ -96,7 +96,7 @@
 }
 
 .va-crisis-line--notouch {
-  background: $color-gold url(/assets/images/arrow-up.svg) no-repeat 97% center;
+  background: $color-gold image-url("icons/arrow-up.svg") no-repeat 97% center;
   background-size: .8em auto;
   border-radius: .2em .2em 0 0;
   font-size: 1.7rem;
@@ -106,8 +106,7 @@
   width: 100%;
   
   .va-crisis-panel--open & {
-    background-image: url(/assets/images/arrow-down.svg);
-  }
+    background-image: image-url("icons/arrow-down.svg")
 }
 
 //==== Small viewport panel touch
