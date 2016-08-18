@@ -16,7 +16,7 @@ button,
 a.usa-button {
   appearance: none;
   text-decoration: none;
-  background-color: $color-primary;
+  background-color: $color-primary-darker;
   border: 0;
   border-radius: .2em;
   color: $color-white;
@@ -40,7 +40,7 @@ a.usa-button {
 
   &:hover,
   &.usa-button-hover {
-    background-color: $color-primary-darker;
+    background-color: $color-primary-darkest;
     border-bottom: 0;
     color: $color-white;
     text-decoration: none;
