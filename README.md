@@ -73,5 +73,5 @@ To release a new version, update the version number in `lib/va_common/version.rb
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/va_common. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/va_common. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Code of Conduct](https://github.com/department-of-veterans-affairs/va_common/blob/master/CODE_OF_CONDUCT.md).
 
